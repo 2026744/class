@@ -6,7 +6,7 @@ import java.util.InputMismatchException;
 public class Firstsemester {
     public static void main(String[] args) {
        Scanner myKb = new Scanner(System.in);
-       boolean valid = false;
+       boolean valid = true;
        
 
        System.out.println("please enter your name");
@@ -14,12 +14,13 @@ public class Firstsemester {
 
        System.out.println("hello, " + myName);
        
-       while (!valid) {
+       while (valid) {
            System.out.println("please enter your age");
            try {
            
            int myage = myKb.nextInt();
            System.out.println("you are " + myage + " years old");
+           valid = false;
            } catch (InputMismatchException error) {
                 System.out.println("Error, you need to enter a number!");
                 myKb.nextLine();
