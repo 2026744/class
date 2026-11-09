@@ -22,7 +22,7 @@ public class Firstsemester {
            System.out.println("you are " + myage + " years old");
            valid = false;
            } catch (InputMismatchException error) {
-                System.out.println("Error, you need to enter a number!");
+                System.out.println("Error, you need to enter a    ooo number!");
                 myKb.nextLine();
         }
        }
