@@ -10,7 +10,7 @@ public class filereader {
     public static void main(String[] args) {
         try{
         
-        Scanner MyInput = new Scanner(new FileReader("C:\\Users\\Educo\\Documents\\NetBeansProjects\\firstsemester\\test.txt"));
+        Scanner MyInput = new Scanner(new FileReader("C:\\Users\\Educo\\Documents\\NetBeansProjects\\firstsemester\\oxes"));
         
         String text = MyInput.nextLine();
         
